@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup-login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="card-switch">
+            <label class="switch">
+               <input class="toggle" type="checkbox">
+               <span class="slider"></span>
+               <span class="card-side"></span>
+               <div class="flip-card__inner">
+                  <div class="flip-card__front">
+                     <div class="title">Sign up</div>
+                     <form action="" class="flip-card__form">
+                        <input id="username" placeholder="Name" class="flip-card__input" >
+                        <input  placeholder="Email" class="flip-card__input" id="email">
+                        <input  placeholder="Password" id="password" class="flip-card__input">
+                        <button class="flip-card__btn" id="btnsignup">Confirm!</button>
+                     </form>
+                  </div>
+                  <div class="flip-card__back">
+                     <div class="title">Log in</div>
+                     <form action="" class="flip-card__form">
+                        <input placeholder="Email" class="flip-card__input" id="emaill">
+                        <input placeholder="Password" id="passwordd" class="flip-card__input">
+                        <button class="flip-card__btn" id="btnlogin">Let`s go!</button>
+                     </form>
+                  </div>
+               </div>
+            </label>
+        </div>   
+   </div>
+    
+
+
+
+    <script type="module" src="./config.js"></script>
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
